@@ -37,11 +37,10 @@ The payload is wrapped in an exec(base64.b64decode(...)) structure to hide it fr
 
 # 🧪 Test Execution
 ✅ Step-by-step:
-1. Generate ONNX Model             : generate_onnx.py
-2. Generate Infected Model         : generate_model.py
-3. Upload via hugging face         : https://huggingface.co/Armx888/ONNX_Proc
-4. Simulate Loading (Victim Side)  : test_loader.py
-5. Result                          : System data + encoded model is POSTed to https://webhook.site/#!/view/78a9abba-f0e1-48d5-8d58-c47745e62317/f0e2f2b6-debb-4d42-8aaf-8295b0a7b8f1/1
+1. Generate Infected Model         : generate_model.py
+2. Upload via hugging face         : https://huggingface.co/Armx888/ONNX_Proc
+3. Simulate Loading (Victim Side)  : test_loader.py
+4. Result                          : System data + encoded model is POSTed to https://webhook.site/#!/view/78a9abba-f0e1-48d5-8d58-c47745e62317/f0e2f2b6-debb-4d42-8aaf-8295b0a7b8f1/1
 
 # 🧨 Real-World Risk
 1. Supply Chain Attack
